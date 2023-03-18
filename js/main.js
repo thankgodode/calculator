@@ -31,10 +31,10 @@ del.addEventListener("click", function () {
   label.innerHTML = sliceDel;
   console.log(sliceDel);
   if (label.innerHTML == "") {
-    label.innerHTML = "0";
+    label.innerHTML = 0
   }
 });
 
 clear.addEventListener("click", function () {
-  label.innerHTML = "0";
-});
+  label.innerHTML = 0
+}); 
