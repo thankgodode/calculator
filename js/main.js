@@ -6,6 +6,7 @@ const clear = document.querySelector(".clear");
 
 btns.forEach((btnEl) => {
   btnEl.addEventListener("click", function () {
+if(label.innerHTML == 0) label.innerHTML=""
     label.innerHTML += btnEl.innerHTML;
   });
 });
