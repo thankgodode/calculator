@@ -5,7 +5,6 @@ const del = document.querySelector(".delete");
 const clear = document.querySelector(".clear");
 const errorM = document.querySelector(".error-message");
 
-
 btns.forEach((btnEl) => {
   btnEl.addEventListener("click", function () {
     if (label.innerHTML == "0") label.innerHTML = "";
