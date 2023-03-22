@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+  background: white;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 335px;
+  background: rgb(243, 254, 255);
+  padding: 2rem 1.5rem;
+}
+
+.keys {
+  display: flex;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem 2rem;
+  background: whitesmoke;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:hover {
+  /* filter: contrast(1.5); */
+  /* filter: sepia(10); */
+  filter: invert(5);
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  text-align: right;
+  height: 20px;
+}
+
+.clear {
+  background: rgba(200, 227, 231, 0.726);
+}
+
+.delete {
+  background: lightcoral;
+}
